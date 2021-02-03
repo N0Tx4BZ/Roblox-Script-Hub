@@ -143,7 +143,7 @@ Name.Position = UDim2.new(0.0380952395, 0, 0.0576308407, 0)
 Name.Size = UDim2.new(0, 293, 0, 41)
 Name.ZIndex = 4
 Name.Font = Enum.Font.SourceSans
-Name.Text = "Script Hub"
+Name.Text = "N0Tx4BZ's Scrip Hub"
 Name.TextColor3 = Color3.fromRGB(0, 0, 0)
 Name.TextScaled = true
 Name.TextSize = 14.000
@@ -4302,3 +4302,12 @@ MoreComingSoon.TextColor3 = Color3.fromRGB(0, 0, 0)
 MoreComingSoon.TextScaled = true
 MoreComingSoon.TextSize = 14.000
 MoreComingSoon.TextWrapped = true
+
+game.StarterGui:SetCore("SendNotification", {
+         Title = "Loaded Script Hub"; -- the title (ofc)
+         Text = "More script coming soon. Thanks for using this Hub. Have fun!"; -- what the text says (ofc)
+        Duration = 5; -- how long the notification should in secounds
+})
+
+
+print("I do not own any of these script inside the script hub I just put them all in this hub to make it easier for you guys.")
